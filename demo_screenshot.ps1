@@ -1,4 +1,4 @@
-# saves screenshot to a user specified file.
+# saves screenshot to a user specified file. run as admin.
 
 $File = (read-host -prompt "[+] enter full path to save file:");
 Add-Type -AssemblyName System.Windows.Forms;
